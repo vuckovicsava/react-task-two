@@ -1,7 +1,5 @@
 import React from 'react';
 
-const Phone = () => (
-  <div>Phone</div>
-);
+const Phone = ({ phone }) => <p>{phone}</p>;
 
 export default Phone;

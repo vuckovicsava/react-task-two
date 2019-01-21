@@ -7,15 +7,23 @@ import Phone from './Phone';
 import Tags from './Tags';
 import Registered from './Registered';
 
-const User = () => (
+const User = ({ 
+  name,
+  about,
+  picture,
+  isRegistered,
+  email,
+  phone,
+  tags
+}) => (
   <div className="user-card">
-    <FullName/>
-    <Image/>
-    <About/>
-    <Email/>
-    <Phone/>
-    <Tags/>
-    <Registered/>
+    <FullName name={name} />
+    <Image picture={picture} />
+    <About about={about} />
+    <Email email={email} />
+    <Phone phone={phone} />
+    <Tags tags={tags} />
+    <Registered isRegistered={isRegistered}/>
   </div>
 );
 

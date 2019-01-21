@@ -10,7 +10,7 @@ class App extends Component {
   }
 
   renderUsers = () => {
-    return this.state.users.map(user => <User user={user} key={user.email}/>)
+    return this.state.users.map(user => <User {...user} key={user.email}/>)
   }
 
   render() {

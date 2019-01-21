@@ -1,7 +1,9 @@
 import React from 'react';
 
-const Tags = () => (
-  <div>Tags</div>
+const Tags = ({ tags }) => (
+  <ul>
+    {tags.map(tag => <li key={tag}>{tag}</li>)}
+  </ul>
 );
 
 export default Tags;

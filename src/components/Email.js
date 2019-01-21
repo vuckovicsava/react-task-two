@@ -1,7 +1,5 @@
 import React from 'react';
 
-const Email = () => (
-  <div>Email</div>
-);
+const Email = ({ email }) => <strong>{email}</strong>;
 
 export default Email;
