@@ -22,8 +22,11 @@ const User = ({
       <FullName name={name} />
     </div>
     <About about={about} />
-    <Email email={email} />
-    <Phone phone={phone} />
+    <div className="card__contact-details">
+      <Email email={email} />
+      <Phone phone={phone} />
+    </div>
+   
     <Tags tags={tags} />
     <Registered isRegistered={isRegistered}/>
   </div>
