@@ -20,15 +20,14 @@ const User = ({
     <div className="card__header">
       <Image picture={picture} />
       <FullName name={name} />
+      <Registered isRegistered={isRegistered}/>
     </div>
     <About about={about} />
     <div className="card__contact-details">
       <Email email={email} />
       <Phone phone={phone} />
     </div>
-   
     <Tags tags={tags} />
-    <Registered isRegistered={isRegistered}/>
   </div>
 );
 

@@ -13,10 +13,12 @@ class App extends Component {
 
   render() {
     return (
-      <div className="app">
+      <>
         <Title text="React Task Two" />
-        {this.renderUsers()}
-      </div>
+        <div className="container">
+          {this.renderUsers()}
+        </div>
+      </>
     );
   }
 }
