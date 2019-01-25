@@ -4,7 +4,7 @@ const users = [
       first: "Sue",
       last: "Camacho"
     },
-    about: "Reprehenderit tempor magna ea non exercitation ea aliqua labore. Et laboris officia irure exercitation esse nostrud ullamco dolore ullamco.Pariatur aute nulla officia tempor cillum aliquip et mollit.Esse cillum deserunt laboris quis adipisicing minim fugiat ullamco cupidatat velit ea qui.Nulla minim duis veniam occaecat laboris ea cillum.Amet officia est exercitation laboris irure nulla id reprehenderit non velit.",
+    about: "Reprehenderit tempor magna ea non exercitation ea aliqua labore. Et laboris officia irure exercitation esse nostrud ullamco dolore ullamco. Pariatur aute nulla officia tempor cillum aliquip et mollit. Esse cillum deserunt laboris quis adipisicing minim fugiat ullamco cupidatat velit ea qui. Nulla minim duis veniam occaecat laboris ea cillum. Amet officia est exercitation laboris irure nulla id reprehenderit non velit.",
     picture: "http://placehold.it/32x32",
     isRegistered: false,
     email: "sue.camacho@newcube.org",
@@ -22,6 +22,7 @@ const users = [
       first: "Zac",
       last: "Zacovic"
     },
+    about: "Reprehenderit tempor magna ea non exercitation ea aliqua labore. Et laboris officia irure exercitation esse nostrud ullamco dolore ullamco. Pariatur aute nulla officia tempor cillum aliquip et mollit. Esse cillum deserunt laboris quis adipisicing minim fugiat ullamco cupidatat velit ea qui. Nulla minim duis veniam occaecat laboris ea cillum. Amet officia est exercitation laboris irure nulla id reprehenderit non velit.",
     picture: "http://placehold.it/32x32",
     isRegistered: true,
     email: "zac.zacovic@newcube.org",
@@ -38,7 +39,7 @@ const users = [
       first: "Ludi",
       last: "Milojko"
     },
-    about: "Reprehenderit tempor magna ea non exercitation ea aliqua labore. Et laboris officia irure exercitation esse nostrud ullamco dolore ullamco.Pariatur aute nulla officia tempor cillum aliquip et mollit.Esse cillum deserunt laboris quis adipisicing minim fugiat ullamco cupidatat velit ea qui.Nulla minim duis veniam occaecat laboris ea cillum.Amet officia est exercitation laboris irure nulla id reprehenderit non velit.",
+    about: "Reprehenderit tempor magna ea non exercitation ea aliqua labore. Et laboris officia irure exercitation esse nostrud ullamco dolore ullamco. Pariatur aute nulla officia tempor cillum aliquip et mollit. Esse cillum deserunt laboris quis adipisicing minim fugiat ullamco cupidatat velit ea qui. Nulla minim duis veniam occaecat laboris ea cillum. Amet officia est exercitation laboris irure nulla id reprehenderit non velit.",
     picture: "http://placehold.it/32x32",
     isRegistered: false,
     email: "ludi.milojko@newcube.org",
@@ -54,7 +55,7 @@ const users = [
       first: "Sundjer",
       last: "Boba"
     },
-    about: "Reprehenderit tempor magna ea non exercitation ea aliqua labore. Et laboris officia irure exercitation esse nostrud ullamco dolore ullamco.Pariatur aute nulla officia tempor cillum aliquip et mollit.Esse cillum deserunt laboris quis adipisicing minim fugiat ullamco cupidatat velit ea qui.Nulla minim duis veniam occaecat laboris ea cillum.Amet officia est exercitation laboris irure nulla id reprehenderit non velit.",
+    about: "Reprehenderit tempor magna ea non exercitation ea aliqua labore. Et laboris officia irure exercitation esse nostrud ullamco dolore ullamco. Pariatur aute nulla officia tempor cillum aliquip et mollit. Esse cillum deserunt laboris quis adipisicing minim fugiat ullamco cupidatat velit ea qui. Nulla minim duis veniam occaecat laboris ea cillum. Amet officia est exercitation laboris irure nulla id reprehenderit non velit.",
     picture: "http://placehold.it/32x32",
     isRegistered: false,
     email: "sundjer.boba@newcube.org",
@@ -71,7 +72,7 @@ const users = [
       first: "Master",
       last: "Yoda"
     },
-    about: "Reprehenderit tempor magna ea non exercitation ea aliqua labore. Et laboris officia irure exercitation esse nostrud ullamco dolore ullamco.Pariatur aute nulla officia tempor cillum aliquip et mollit.Esse cillum deserunt laboris quis adipisicing minim fugiat ullamco cupidatat velit ea qui.Nulla minim duis veniam occaecat laboris ea cillum.Amet officia est exercitation laboris irure nulla id reprehenderit non velit.",
+    about: "Reprehenderit tempor magna ea non exercitation ea aliqua labore. Et laboris officia irure exercitation esse nostrud ullamco dolore ullamco. Pariatur aute nulla officia tempor cillum aliquip et mollit. Esse cillum deserunt laboris quis adipisicing minim fugiat ullamco cupidatat velit ea qui. Nulla minim duis veniam occaecat laboris ea cillum. Amet officia est exercitation laboris irure nulla id reprehenderit non velit.",
     picture: "http://placehold.it/32x32",
     isRegistered: true,
     email: "master.yoda@newcube.org",

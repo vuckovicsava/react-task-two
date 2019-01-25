@@ -5,9 +5,7 @@ import users from './data/users';
 
 class App extends Component {
 
-  state = {
-    users
-  }
+  state = { users }
 
   renderUsers = () => {
     return this.state.users.map(user => <User {...user} key={user.email}/>)
@@ -15,7 +13,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="app">
         <Title text="React Task Two" />
         {this.renderUsers()}
       </div>

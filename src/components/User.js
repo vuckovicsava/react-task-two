@@ -16,9 +16,11 @@ const User = ({
   phone,
   tags
 }) => (
-  <div className="user-card">
-    <FullName name={name} />
-    <Image picture={picture} />
+  <div className="card">
+    <div className="card__header">
+      <Image picture={picture} />
+      <FullName name={name} />
+    </div>
     <About about={about} />
     <Email email={email} />
     <Phone phone={phone} />
